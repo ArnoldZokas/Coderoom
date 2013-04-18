@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Coderoom.Site.Controllers
+namespace Coderoom.Web.Controllers
 {
 	public class HomeController : Controller
 	{
