@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderoom.Site", "Coderoom.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderoom", "Coderoom\Coderoom.csproj", "{54A15913-832A-4F52-83C3-02B2857CA959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderoom.Specifications", "Coderoom.Specifications\Coderoom.Specifications.csproj", "{CA2B0209-2414-478E-A2DF-A2C9FCA0625B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{54A15913-832A-4F52-83C3-02B2857CA959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54A15913-832A-4F52-83C3-02B2857CA959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54A15913-832A-4F52-83C3-02B2857CA959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2B0209-2414-478E-A2DF-A2C9FCA0625B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2B0209-2414-478E-A2DF-A2C9FCA0625B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2B0209-2414-478E-A2DF-A2C9FCA0625B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2B0209-2414-478E-A2DF-A2C9FCA0625B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

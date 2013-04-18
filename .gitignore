@@ -1,4 +1,5 @@
 *.DotSettings
+*.suo
 **/*.user
 
 **/bin

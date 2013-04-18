@@ -6,7 +6,7 @@ namespace Coderoom.Web
 {
 	public class Application : HttpApplication
 	{
-		protected void Application_Start()
+		public void Application_Start()
 		{
 			GlobalFilters.Filters.Add(new HandleErrorAttribute());
 
