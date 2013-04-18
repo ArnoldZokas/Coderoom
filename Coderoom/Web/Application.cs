@@ -8,8 +8,6 @@ namespace Coderoom.Web
 	{
 		protected void Application_Start()
 		{
-			AreaRegistration.RegisterAllAreas();
-
 			GlobalFilters.Filters.Add(new HandleErrorAttribute());
 
 			RouteTable.Routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
