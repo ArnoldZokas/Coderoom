@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyProduct("http://coderoom.net/")]
-[assembly: AssemblyCopyright("Copyright © Arnold Zokas 2013")]
+[assembly: AssemblyCopyright("Copyright © 2013 Arnold Zokas")]
 
 [assembly: ComVisible(false)]
 [assembly: CLSCompliant(true)]
