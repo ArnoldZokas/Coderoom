@@ -6,6 +6,7 @@ Properties {
 
     $solution_file = "$project_dir\Coderoom.sln"
     $build_configuration = "Release"
+    $build_output_dir = "$project_dir\build-output"
 }
 
 task default -depends compile
@@ -18,5 +19,5 @@ FormatTaskName {
 }
 
 Task compile { 
-    msbuild $solution_file /m /property:Configuration=$build_configuration /nologo
+    msbuild $solution_file /m /property:"Configuration=$build_configuration;OutputPath=$build_output_dir" /nologo
 }
