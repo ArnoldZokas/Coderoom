@@ -21,5 +21,5 @@ formatTaskName {
 }
 
 task compile { 
-	exec { msbuild $solution_file /m /property:"Configuration=$build_configuration__;OutputPath=$build_output_dir" /nologo }
+	exec { msbuild $solution_file /m /property:"Configuration=$build_configuration;OutputPath=$build_output_dir" /nologo }
 }
