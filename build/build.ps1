@@ -21,7 +21,7 @@ formatTaskName {
 }
 
 taskSetup {
-	$message = "Running task $($psake.context.Peek().currentTaskName)"	
+	$message = "Running task [$($psake.context.Peek().currentTaskName.ToUpper())]"
 	Write-Output "##teamcity[progessMessage '$message']"
 }
 
