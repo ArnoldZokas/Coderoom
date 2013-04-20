@@ -20,6 +20,11 @@ formatTaskName {
 	write-host
 }
 
+taskSetup {
+	$message = "Running task $($psake.context.Peek().currentTaskName)"	
+	Write-Output "##teamcity[progessMessage '$message']"
+}
+
 task compile { 
 	exec { msbuild $solution_file /m /property:"Configuration=$build_configuration;OutputPath=$build_output_dir" /nologo }
 }
