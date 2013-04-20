@@ -1,6 +1,8 @@
-Framework "4.0"
+framework "4.0"
 
-Properties {
+. .\functions.ps1
+
+properties {
 	$build_dir = split-path $psake.build_script_file
 	$project_dir = "$build_dir\.."
 	
@@ -11,19 +13,13 @@ Properties {
 
 task default -depends compile
 
-FormatTaskName {
+formatTaskName {
 	param($taskName)
 	write-host
 	write-host (("-"*30) + "[ " + $taskName.ToUpper() + " ]" + ("-"*30)) -fore Green
 	write-host
 }
 
-Task compile { 
-	try {
-		msbuild $solution_file /m /property:"Configuration=$build_configurationasdas;OutputPath=$build_output_dir" /nologo
-	}
-	catch {
-		write-output "##teamcity[buildStatus text='MSBuild Error - see build log for details' status='ERROR']"
-		write-error $_
-	}
+task compile { 
+	exec { msbuild $solution_file /m /property:"Configuration=$build_configuration__;OutputPath=$build_output_dir" /nologo }
 }
