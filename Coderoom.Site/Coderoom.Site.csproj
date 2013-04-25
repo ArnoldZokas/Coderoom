@@ -111,7 +111,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="apple-touch-icon-114x114-precomposed.png" />
+    <Content Include="apple-touch-icon-144x144-precomposed.png" />
+    <Content Include="apple-touch-icon-57x57-precomposed.png" />
+    <Content Include="apple-touch-icon-72x72-precomposed.png" />
+    <Content Include="apple-touch-icon-precomposed.png" />
+    <Content Include="apple-touch-icon.png" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="humans.txt" />
+    <Content Include="robots.txt" />
+    <Content Include="static\css\main.css" />
+    <Content Include="static\css\normalize.css" />
+    <Content Include="static\css\normalize.min.css" />
+    <Content Include="static\js\main.js" />
+    <Content Include="static\js\vendor\jquery-1.9.1.min.js" />
+    <Content Include="static\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>

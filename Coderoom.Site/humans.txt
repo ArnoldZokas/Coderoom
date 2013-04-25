@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Arnold Zokas -- Developer -- @arnoldzokas
+
+# THANKS
+
+    Dave Taylor @davetayls
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+	.NET 4.5 / MVC 4
+	RavenDB
