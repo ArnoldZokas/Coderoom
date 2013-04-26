@@ -2,6 +2,7 @@
 *.suo
 **/*.user
 
+assets
 build-output
 **/bin
 **/obj
